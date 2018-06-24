@@ -1,2 +1,0 @@
-# karisphotography
-personal website
