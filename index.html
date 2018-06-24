@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kari's Photography</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<style type="text/css">
+			
+
+	</style>
+</head>
+<body>
+<div class="wapper">
+	<div class="content-home">
+		<video autoplay muted loop id="bg-video">
+  			<source src="kari.mp4" type="video/mp4">
+  				Your browser does not support HTML5 video.
+		</video>
+		<div class="home">
+			<div class="navbar">
+				<img id="logo" src="logo.png" width="200px" height="90px">
+				<ul class="menu">
+					<li> <a href="#content-aboutme">ЗА МЕН </a> </li>
+					<li> <a href="#content-contact">КОНТАКТИ </a> </li>
+				</ul>
+			</div>
+			<p class="moto-title">Светът през моя обектив</p>
+			<div class="bottom-text">
+				<p class="continiue">Открий моята фотография</p>
+				<a href="#content-people"><img class="arrow" src="arrow-w.png" width="30px" height="20px"></a>
+			</div>
+		</div>
+	</div>
+	<div id="content-people">
+		<div class="category"> 
+			<p>
+			Х
+		</br>
+		    О
+		    </br>
+	        Р
+	        </br>
+            А 
+            </p>
+        </div>
+		<div class="photos">
+			<div class="col-1-p"><img class="image" src="img/img6.jpg" width="300" height="450" onclick="MyFunc(0)"></div>
+			
+			<div class="col-2-p">
+				<div class="img-1"><img class="image" src="img/img7.jpg" width="340" height="200" onclick="MyFunc(1)"></div>
+				<div class="img-2"><img class="image" src="img/img4.jpg" width="157" height="245" onclick="MyFunc(2)"></div>
+				<div class="img-3"><img class="image" src="img/img8.jpg" width="177" height="130" onclick="MyFunc(3)"></div>
+				<div class="img-4"><img class="image" src="img/img9.jpg" width="177" height="109" onclick="MyFunc(4)"></div>	
+			</div>
+			<div class="col-3-p">
+				<div class="img-6"><img class="image"  src="img/img1.jpg" width="150" height="200" onclick="MyFunc(5)"></div>
+				<div class="img-5"><img class="image" src="img/img5.jpg" width="150" height="100" onclick="MyFunc(6)"></div>
+				<div class="img-7"><img class="image" src="img/img2.jpg" width="150" height="95" onclick="MyFunc(7)"></div>
+				<div class="img-7"><img class="image" src="img/img3.jpg" width="304" height="245" onclick="MyFunc(8)"></div>
+			</div>
+		</div>
+		<div class="next">
+				<a href="#content-landscape"><img class="arrow" src="arrow-b.png" width="30px" height="20px"></a>
+			</div>
+	</div>
+	<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+	<div id="content-landscape">
+		<div class="category-2"> 
+			<p>
+			П
+		    </br>
+		    Е
+		    </br>
+	        Й
+	        </br>
+            З
+            </br>
+            А
+            </br>
+            Ж
+            </br>
+            И
+            </p>
+        </div>
+		<div class="photos-l">
+			
+			
+			<div class="col-1-p-l">
+				<div class="img-1"><img class="image" src="img/img-1.jpg" width="400" height="272"  onclick="MyFunc(9)"></div>
+				<div class="img-2"><img  class="image" src="img/img-3.jpg" width="400" height="272" onclick="MyFunc(10)"></div>
+			</div>
+			<div class="col-2-p-l">
+				<div class="img-6"><img class="image" src="img/img-2.jpg" width="200" height="280" onclick="MyFunc(11)"></div>
+				<div class="img-5"><img class="image" src="img/img-9.jpg" width="200" height="130" onclick="MyFunc(12)"></div>
+				<div class="img-7"><img class="image" src="img/img-8.jpg" width="200" height="130" onclick="MyFunc(13)"></div>
+			</div>
+			<div class="col-3-p-l"><img class="image" src="img/img-7.jpg" width="340" height="550" onclick="MyFunc(14)"></div>
+		</div>
+
+	    <div class="photos-l-2">
+			  <div class="col-1-p-l-2">
+				<div class="img-6"><img  class="image" src="img/img-11.jpg" width="200" height="280" onclick="MyFunc(15)"></div>
+				<div class="img-5"><img class="image" src="img/img-5.jpg" width="200" height="130" onclick="MyFunc(16)"></div>
+				<div class="img-7"><img class="image" src="img/img-6.jpg" width="200" height="130" onclick="MyFunc(17)"></div>
+			  </div>
+			  <div class="col-2-p-l-2">
+				   <div class="img-1"><img class="image" src="img/img-4.jpg" width="246" height="135" onclick="MyFunc(18)"></div>
+				   <div class="img-1"><img class="image" src="img/img-12.jpg" width="246" height="135" onclick="MyFunc(19)"></div>
+				   <div class="img-1"><img class="image" src="img/img-13.jpg" width="246" height="135" onclick="MyFunc(20)"></div>
+				   <div class="img-2"><img class="image" src="img/img-10.jpg" width="745" height="410" onclick="MyFunc(21)"></div>
+			  </div>
+				
+		      </div>
+		    </div>
+		    <div class="next">
+				<a href="#content-aboutme"><img class="arrow" src="arrow-b.png" width="30" height="20"></a>
+			</div>
+	    </div>
+	<div id="content-aboutme">
+		<p class="aboutme">ЗА МЕН</p>
+		<div class="aboutme-photo"><img src="img/me.jpg" width="500" height="500"></div>
+		<div class="aboutme-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</div>
+		<div class="next">
+				<a href="#content-contact"><img class="arrow" src="arrow-b.png" width="30" height="20"></a>
+			</div>
+		
+	</div>
+	<div id="content-contact">
+		<p class="aboutme">КОНТАКТИ</p>
+		<div class="next" style="background-color: black;">
+				sdfngsdhgdf
+			</div>
+	</div>
+</div>
+<script type="text/javascript">
+	$('a[href^="#"]').on('click', function(event) {
+
+    var target = $(this.getAttribute('href'));
+
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').stop().animate({
+            scrollTop: target.offset().top
+        }, 1000);
+    }
+
+});
+var modal = document.getElementById('myModal');
+	
+var img = document.getElementsByClassName("image");
+var modalImg = document.getElementById("img01");
+
+ function MyFunc(a){
+    modal.style.display = "block";
+    
+    
+     modalImg.src =  img[a].src;
+
+   
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+</body>
+</html>
